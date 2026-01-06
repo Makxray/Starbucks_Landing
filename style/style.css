@@ -258,7 +258,7 @@ SECTION__WELCOME
   left: -160px;
   bottom: -240px;
 
-  background-image: url(/stubucks_landing/images/icons/lines.svg);
+  background-image: url(images/icons/lines.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ SECTION__WELCOME
   left: 20px;
   width: 200px;
   height: 200px;
-  background-image: url(/stubucks_landing/images/icons/star3.svg);
+  background-image: url(images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -470,7 +470,7 @@ SECTION__WELCOME
   right: -400px;
   bottom: -550px;
 
-  background-image: url(/stubucks_landing/images/icons/Group\ 17.svg);
+  background-image: url(images/icons/Group\ 17.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -524,17 +524,12 @@ SECTION__WELCOME
   margin-top: 129px;
 }
 
-.products__container {
-
-}
-
 .products__text {
   display: flex;
   align-items: center;
   width: 908px;
   height: 164px;
 }
-
 
 .products__title {
   position: relative;
@@ -601,7 +596,6 @@ SECTION__WELCOME
   inset: -2px;
   z-index: -5;
   background-color: rgb(218,218,218);
-  /* background: linear-gradient(120deg, rgba(218, 218, 218, 0.7) 0%, rgba(218, 218, 218, 0.07) 42%, rgba(218, 218, 218, 1) 100%);*/
   border-radius: 30px; 
   transition: 1s background;
   border-radius: inherit;
@@ -617,12 +611,10 @@ SECTION__WELCOME
     opacity 0.4s ease,
     filter 0.4s ease,
     transform 0.4s ease;
-  /* z-index: -1; */
 }
 
 .card:hover::before {
   background: rgb(35,114,73);
-  /* background: linear-gradient(260deg, rgba(35, 114, 73, 1) 0%, rgba(53, 198, 107, 1)100%); */
   opacity: 1;
   filter: blur(4px);
   transform: scale(1.02);
@@ -740,10 +732,6 @@ SECTION__EVENTS
   margin-bottom: 20px;
 }
 
-.events__container {
-
-}
-
 .events__text {
   display: flex;
   justify-content: space-between;
@@ -753,7 +741,6 @@ SECTION__EVENTS
   height: 175px;
   margin-left: auto;
 }
-
 
 
 .events__desc {
@@ -810,7 +797,6 @@ SECTION__EVENTS
   height: 100%;
   object-fit: cover;
 }
-
 
 
 .cards_title {
@@ -905,7 +891,7 @@ SECTION__EVENTS
   bottom: -450px;
   transform: rotate(-3.45deg);
 
-  background-image: url(/stubucks_landing/images/icons/linelast.png);
+  background-image: url(images/icons/linelast.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -974,7 +960,7 @@ SECTION__EVENTS
   left: 25px;
   width: 200px;
   height: 200px;
-  background-image: url(/stubucks_landing/images/icons/star3.svg);
+  background-image: url(images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1007,20 +993,12 @@ SECTION__EVENTS
   padding: 40px 120px 40px 120px;
 }
 
-.footer__container {
-
-}
-
 .footer__row1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 
   margin-bottom: 70px;
-}
-
-.footer__logo {
-
 }
 
 .footer__nav {
@@ -1072,11 +1050,6 @@ SECTION__EVENTS
   background: #00ff84;
 }
 
-
-.footer__arrow {
-  
-}
-
 .footer__row2 {
   width: 230px;
   height: 32px;
@@ -1091,5 +1064,6 @@ line-height: 32px;
 letter-spacing: 0%;
 text-align: left;
 }
+
 
 
