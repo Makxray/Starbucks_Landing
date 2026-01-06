@@ -258,7 +258,7 @@ SECTION__WELCOME
   left: -160px;
   bottom: -240px;
 
-  background-image: url(/images/icons/lines.svg);
+  background-image: url(../images/icons/lines.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ SECTION__WELCOME
   left: 20px;
   width: 200px;
   height: 200px;
-  background-image: url(images/icons/star3.svg);
+  background-image: url(../images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -470,7 +470,7 @@ SECTION__WELCOME
   right: -400px;
   bottom: -550px;
 
-  background-image: url(images/icons/Group\ 17.svg);
+  background-image: url(../images/icons/Group\ 17.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -758,7 +758,7 @@ SECTION__EVENTS
   left: -730px;
   -webkit-transform: rotate(5deg);
 
-  background-image: url(/stubucks_landing/images/icons/Group\ 18.png);
+  background-image: url(../images/icons/Group\ 18.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -891,7 +891,7 @@ SECTION__EVENTS
   bottom: -450px;
   transform: rotate(-3.45deg);
 
-  background-image: url(images/icons/linelast.png);
+  background-image: url(../images/icons/linelast.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -960,7 +960,7 @@ SECTION__EVENTS
   left: 25px;
   width: 200px;
   height: 200px;
-  background-image: url(images/icons/star3.svg);
+  background-image: url(../images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
