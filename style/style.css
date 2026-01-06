@@ -258,7 +258,7 @@ SECTION__WELCOME
   left: -160px;
   bottom: -240px;
 
-  background-image: url(images/icons/lines.svg);
+  background-image: url(/images/icons/lines.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1064,6 +1064,7 @@ line-height: 32px;
 letter-spacing: 0%;
 text-align: left;
 }
+
 
 
 
