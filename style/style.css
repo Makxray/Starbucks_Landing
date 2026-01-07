@@ -278,7 +278,18 @@ SECTION__WELCOME
 }
 
 .welcome__img {
-  max-width: 480px;
+  width: 470px;
+  animation: moveCup 1.5s infinite alternate ease-in-out;
+}
+
+
+@keyframes moveCup {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 
@@ -287,6 +298,8 @@ SECTION__WELCOME
 
 .benefits {
   margin-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .benefits__container {
@@ -309,7 +322,7 @@ SECTION__WELCOME
   left: 20px;
   width: 200px;
   height: 200px;
-  background-image: url(/images/icons/star3.svg);
+  background-image: url(../images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -569,12 +582,10 @@ SECTION__WELCOME
 
 .products_card {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 1270px;
-  gap: 55px;
+  gap: 30px;
   margin-top: 63px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -960,7 +971,7 @@ SECTION__EVENTS
   left: 25px;
   width: 200px;
   height: 200px;
-  background-image: url(/images/icons/star3.svg);
+  background-image: url(../images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1064,6 +1075,69 @@ line-height: 32px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+
+
+/* АДАПТАЦИЯ */
+
+
+@media (max-width: 1140px) {
+  .benefits__container::after {
+    left: 50px;
+  }
+
+  .welcome__img-wrapper {
+  padding-right: 0px;
+}
+  .cards .item-5 {
+    visibility: hidden;
+  }
+
+}
+
+@media (max-width: 1130px) {
+  .footer__nav {
+    gap: 35px;
+  }
+
+  .welcome__img {
+    width: 280px;
+  }
+
+  .welcome .container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .welcome__img-wrapper::before {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    right: -150px;
+    bottom: -150px;
+  }
+
+  .history {
+    text-align: center;
+  }
+
+  .history .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .history__img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .history__text::before {
+    right: -255px;
+  }
+}
+
 
 
 
