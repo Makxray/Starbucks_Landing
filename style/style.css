@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin: 0;
 
   font-family: "Montserrat", serif;
@@ -1137,6 +1137,7 @@ text-align: left;
     right: -255px;
   }
 }
+
 
 
 
