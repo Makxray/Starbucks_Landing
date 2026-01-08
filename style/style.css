@@ -322,7 +322,7 @@ SECTION__WELCOME
   left: 20px;
   width: 200px;
   height: 200px;
-  background-image: url(../images/icons/star3.svg);
+  background-image: url(images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -971,7 +971,7 @@ SECTION__EVENTS
   left: 25px;
   width: 200px;
   height: 200px;
-  background-image: url(../images/icons/star3.svg);
+  background-image: url(images/icons/star3.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1438,6 +1438,7 @@ text-align: left;
   }
 
 }
+
 
 
 
