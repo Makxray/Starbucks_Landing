@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   margin: 0;
 
   font-family: "Montserrat", serif;
@@ -1435,6 +1435,11 @@ text-align: left;
 
   .events__cards {
     margin-top: 100px;
+  }
+  
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 }
